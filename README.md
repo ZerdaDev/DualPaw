@@ -1,18 +1,18 @@
 # DualPaw - e621 client for the Nintendo 3DS
-<sub>Why would anyone use this?</sub>
+<sub>Why would anyone use this? Why did I make this? What am I doing with my life?</sub>
 
-DualPaw (haha, get it? Two paws? Two screens?... I'll see myself out.) is a homebrew application for the Nintendo 3DS which allows you to search and view images from e621's API, completely on-device! Currently, the app supports searching posts by tags, as well as buttons for viewing newest and most popular posts, just like e6's website! 
+DualPaw (haha, get it? Two paws? Two screens?... I'll see myself out.) is a homebrew application for the Nintendo 3DS which allows you to search and view images from e621's API, completely on-device! Currently, the app supports searching posts by tags, as well as buttons for viewing newest and most popular posts, just like e6's website! Is this practical or efficient? Absolutely not, since everyone has a phone nowadays. Is this useful? WELL, if you were on a desert island with nothing but your Ninte-
 
 # Screenshots!
 
 <img width="400" height="480" alt="DualpawHomepage" src="https://github.com/user-attachments/assets/1f74fd7c-73de-4c6e-b2dc-ac1269721d44" /> <img width="400" height="480" alt="DualpawSettings" src="https://github.com/user-attachments/assets/5ad0b8af-d003-4667-9957-54d5a8fd14f2" />
 
 # How does it work?
-Upon entering search tags (or pressing the "new" or "popular" buttons), DualPaw calls e621's API and fetches a .json containing info for the 6 most recent (or most popular, if using the popular button) posts. Images are then decoded and displayed on screen, inside the spaces on the image grid. .json info is then cleared from memory before fetching more posts, to accomodate the limited RAM of the Nintendo 3DS (seriously, this is important! If memory wasn't cleared in between retrievals, the app would crash within 2-3 searches).
+Upon entering search tags (or pressing the "new" or "popular" buttons), DualPaw calls e621's API and fetches a .json containing info for the most recent (or most popular, if using the popular button) posts. Images are then decoded and displayed on screen, inside the spaces on the image grid. .json info is then cleared from memory before fetching more posts, to accomodate the limited RAM of the Nintendo 3DS. Seriously, this is important! If memory wasn't cleared in between retrievals, the app would crash within 2-3 searches. (please don't anger your 3ds. it's old and tired)
 
 # Current Working Features
 - Home page
-- Semi-decent UI? (~~not really~~)
+- ~~Semi-decent UI?~~ A UI that... exists...
 - Random mascot images, stored locally to improve speed
 - Search posts (with multiple tag support!)
 - New button (fetches newest posts)
@@ -34,4 +34,9 @@ You'll need to download the latest .3dsx and .smdh files from [here](https://git
 Alternatively, use a 3DS emulator. But that kind of defeats the purpose of this app, doesn't it?~
 
 # Now, for some disclaimers...
-This project is NOT affiliated with e621, Bad Dragon, or Dragon Fruit Ventures, LLC. This is an **unofficial** client for e621. If you're having issues with this software, please do not ask or harass e621 developers. Instead, open an issue [here!](https://github.com/ZerdaDev/DualPaw/issues) This app is intended for personal use. Viewer discretion is advised, please view **responsibly!**
+This project is NOT affiliated with e621, Bad Dragon, or Dragon Fruit Ventures, LLC. This is an **unofficial** client for e621. If you're having issues with this software, please do not ask or harass e621 developers. Instead, open an issue [here!](https://github.com/ZerdaDev/DualPaw/issues) This app is intended for personal use. Viewer discretion is advised. Be responsible with your gaming clam.
+
+# CREDITS!
+- citro2d for graphics
+- JPEG decoding done with libjpeg
+- API requests working via libcurl
