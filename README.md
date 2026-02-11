@@ -24,6 +24,7 @@ You'll need:
 - A modified Nintendo 3DS/2DS/New 3DS/New 2DS, whatever. As long as it can run 3DS software, it'll work! If your device is not modified yet, check out 3ds.hacks.guide
 - A computer or some other device which can transfer files to an SD card. ~~this won't be required once I stop being lazy and make a .cia with a QR code~~
 - A working internet connection! We can't just pull images out of thin air, sadly...
+
 You'll need to download the latest .3dsx and .smdh files from [here](https://github.com/ZerdaDev/DualPaw/releases). Once those are downloaded, plug in your SD card and drop them in your 3ds/ folder. Put your SD back in your 3DS, connect your 3DS to wifi, open the app with your homebrew launcher of choice, and... Things *should* work.
 
 Alternatively, use a 3DS emulator. But that kind of defeats the purpose of this app, doesn't it?~
