@@ -19,6 +19,15 @@ Upon entering search tags (or pressing the "new" or "popular" buttons), DualPaw 
 - Popular button (fetches popular posts)
 - 6x2 image grid
 
+# To Do
+- [ ] Improve UI
+  - [ ] Show focused post info on bottom screen
+  - [ ] Add a comments tab
+- [ ] Higher quality focused images (cleared from memory once closed)
+- [ ] Login system (using API keys)
+- [ ] Ignore/filter videos (I don't believe the 3DS has enough ram for these + Dualpaw crashes if too many attempt to load)
+- [ ] Animation/GIF support
+
 # Okay, but... Why?
 Simply because I thought it would be funny :D I'm fully aware that there are better ways to access e621, but come on! Viewing on a 3DS with a dedicated app? Now THAT'S funny!
 
