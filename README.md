@@ -5,10 +5,7 @@ DualPaw (haha, get it? Two paws? Two screens?... I'll see myself out.) is a home
 
 # Screenshots!
 
-<img width="400" height="480" alt="DualpawHomepage" src="https://github.com/user-attachments/assets/1f74fd7c-73de-4c6e-b2dc-ac1269721d44" /> <img width="400" height="480" alt="DualpawSettings" src="https://github.com/user-attachments/assets/5ad0b8af-d003-4667-9957-54d5a8fd14f2" /> <img width="400" height="480" alt="DualpawSearchSafe" src="https://github.com/user-attachments/assets/c34bd9b8-a2eb-4e1b-b648-3def852d919e" />
-
-
-
+<img width="400" height="480" alt="DualpawHomepage" src="https://github.com/user-attachments/assets/1f74fd7c-73de-4c6e-b2dc-ac1269721d44" /> <img width="400" height="480" alt="DualpawSettings" src="https://github.com/user-attachments/assets/5ad0b8af-d003-4667-9957-54d5a8fd14f2" />
 
 # How does it work?
 Upon entering search tags (or pressing the "new" or "popular" buttons), DualPaw calls e621's API and fetches a .json containing info for the 6 most recent (or most popular, if using the popular button) posts. Images are then decoded and displayed on screen, inside the spaces on the image grid. .json info is then cleared from memory before fetching more posts, to accomodate the limited RAM of the Nintendo 3DS (seriously, this is important! If memory wasn't cleared in between retrievals, the app would crash within 2-3 searches).
